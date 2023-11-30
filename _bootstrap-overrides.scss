@@ -6,10 +6,96 @@
 
 // 2. Include any default variable overrides here
 
+/* buttons */
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x: 2.5rem;
+
+/* gutter */
+$grid-gutter-width: 0.5rem !default;
+
+/* danger */
+$danger: #ff0077;
+$info: #00ffea;
+$light: #f3eeff;
+
+/* border radius btn input e badge*/
+$btn-border-radius: 50px;
+$input-border-radius: 50px;
+$badge-border-radius: 50px;
 // 3. Include remainder of required Bootstrap stylesheets
 @import "./bootstrap/scss/variables";
 
 // 4. Include any default map overrides here
+
+/* font size */
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: 2rem,
+  8: 1.5rem,
+  9: 1rem,
+  10: 0.5rem,
+);
+
+/* border width */
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
+);
+
+/* cards */
+$card-color: $info;
+$card-bg: $dark;
+$card-border-radius: 2rem;
+
+/* color theme */
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "epicode-1": #5726c3,
+  "epicode-2": #8625a5,
+  "epicode-3": #cb2376,
+);
+
+/* breakpoints */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  "3x1": 1600px,
+  "4x1": 1800px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  "3x1": 1520px,
+  "4x1": 1720px,
+);
 
 // 5. Include remainder of required parts
 @import "./bootstrap/scss/maps";
